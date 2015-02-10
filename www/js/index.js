@@ -45,9 +45,8 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
-    }
-    
-        var Puship;
+        
+                var Puship;
         
         Puship = window.plugins.puship;
         
@@ -99,5 +98,9 @@ var app = {
         } else {
             Console.log("Not supported platform");
         }
+        
+    }
+    
+
     
 };
