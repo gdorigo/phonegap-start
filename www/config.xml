@@ -6,7 +6,7 @@
         id        = "com.phonegap.helloworld"
         version   = "1.0.0">
 
-    <name>Hello World</name>
+    <name>Puship Ext Plugin</name>
 
     <description>
         Hello World sample application that responds to the deviceready event.
@@ -70,6 +70,7 @@
     <!--
         <gap:plugin name="com.phonegap.plugins.barcodescanner" />
     -->
+    <gap:plugin name="com.phonegap.plugins.puship" version="1.0.0" source="plugins.cordova.io" />
 
     <!-- Define app icon for each platform. -->
     <icon src="icon.png" />
